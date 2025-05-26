@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+streamlit = "*"
+langchain = "*"
+langchain-ollama = "*"
+langchain-core = "*"
+langchain-groq = "*"
+faiss-cpu = "*"
+pdfplumber = "*"
+langchain-community = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
