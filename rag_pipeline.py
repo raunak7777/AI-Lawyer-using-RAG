@@ -4,7 +4,7 @@ import os
 load_dotenv()  # Loads variables from .env into environment
 
 # Now the API key will be accessible
-api_key = os.getenv("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")
+api_key = os.getenv("API_KEY_FROM_GROQ")
 
 
 from langchain_groq import ChatGroq
