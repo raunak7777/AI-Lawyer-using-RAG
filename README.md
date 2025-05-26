@@ -16,6 +16,8 @@ pip install ollama
 
 pip install FAISS-CPU
 
+
 To Run the project
 -- streamlit run frontend.py
+
 It will create localhost.
